@@ -14,11 +14,11 @@
 
 ## 코드 구성
 
-| 파일 | 역할 |
-|------|------|
-| `utils.py` | `mean(scores)` : 점수 리스트 평균 계산<br>`letter_grade(score)` : 평균 점수에 따른 학점 반환 |
-| `models.py` | `Student` 클래스 : 이름과 점수 저장, 평균·학점 계산 메서드 포함<br>`GradeBook` 클래스 : 여러 학생 관리, 전체 반 평균 계산 |
-| `main.py` | `main()` 함수 : 예시 학생 생성 및 결과 출력 (프로그램 실행부) |
+mean(scores) : 점수 리스트 평균 계산
+letter_grade(score) : 평균 점수에 따른 학점 반환
+Student 클래스 : 이름과 점수 저장, 평균·학점 계산 메서드 포함
+GradeBook 클래스 : 여러 학생 관리, 전체 반 평균 계산
+main() 함수 : 예시 학생 생성 및 결과 출력
 
 ---
 
